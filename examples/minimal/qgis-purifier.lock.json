@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "hash": "sha256-FSHZ9u8BGDXpa544N0sEkq8KDO5dT9opbeZMbNutIUg=",
+      "mirrors": [],
+      "path": "latlontools",
+      "qgis": {
+        "version": "4.0.4"
+      },
+      "url": "https://plugins.qgis.org/plugins/latlontools/version/4.0.4/download/"
+    }
+  ],
+  "native": {
+    "catalog": {
+      "latlontools": {
+        "about": "Lat Lon Tools makes it easy to capture, zoom to coordinates, and interact with other on-line mapping tools. It adds MGRS, Standard UTM, and Plus Codes support to QGIS. When working with Google Earth, Google Maps or other on-line mapping tools, coordinates are specified in the order of &#x27;Latitude, Longitude&#x27;. By default Lat Lon Tools uses the standard Google Map format, but is very flexible and can use virtually any projection and coordinate format for input and output. The plugin has the following tools.\n1) Capture/Display coordinates to the clipboard (in any projection) when the user clicks on the map. This includes DMS, UTM, UPS, Geohash, MGRS, H3, Maidenhead grid, and Plus Codes.\n2) Capture the bounding box of the canvas.\n3) Zoom to and highlight a point on the map using coordinates from any projection, including MGRS, UTM, UPS, Geohash, H3, Maidenhead grid, and Plus Codes, and can format the coordinates in decimal, DMS, WKT POINT, or GeoJSON notation.\n4) Digitizing service to add points to a layer. It supports all the &quot;Zoom to&quot; input formats.\n5) Launch and display an external map based on the coordinate clicked on. Supported maps include Open Street Map, Google, Bing, MapQuest, Mapillary, and Google Earth.\n6) Use a list of points for rapid zooming created from a file, direct input, or captured from the map. Create a point layer from these locations.\n7) MGRS conversion routines that converts a layer with an MGRS field into a point layer, and creates an MGRS field from the point layer.\n8) Plus Code conversion routines that converts a layer with a Plus Code field into a point layer, and creates an Plus Code field from the point layer.\n9) Convert a point layer geometry into a textual representation of that geometry within a field.\n10) Convert a layer containing a coordinate field or fields into a point layer.\n11) Convert a layer&#x27;s geometry into a WTK, EWTK, or JSON string of its geometry and adding it to a new attribute field. Convert an attribute field containing WKT coordinates into new layers.\n12) Coordinate conversion dialog.\n13) Conversion functions for the field calculator.",
+        "author_email": "",
+        "author_name": "Calvin Hamilton",
+        "available": true,
+        "average_vote": "0",
+        "category": "",
+        "changelog": "",
+        "code_repository": "https://github.com/hamiltoncj/qgis-latlontools-plugin",
+        "create_date": "2016-06-09T19:44:02.842728+00:00",
+        "create_date_experimental": "",
+        "create_date_stable": "2016-06-09T19:44:02.842728+00:00",
+        "deprecated": false,
+        "description": "Tools to capture and zoom to coordinates using decimal, DMS, WKT, GeoJSON, MGRS, UTM, UPS, Geohash, H3, Maidenhead grid, Plus Codes, and ECEF formats. Provides external map support, point digitizing tools, coordinate conversion tools, and conversion functions.",
+        "download_url": "https://plugins.qgis.org/plugins/latlontools/version/4.0.4/download/",
+        "download_url_experimental": "",
+        "download_url_stable": "https://plugins.qgis.org/plugins/latlontools/version/4.0.4/download/",
+        "downloads": "1888428",
+        "error": "",
+        "error_details": "",
+        "experimental": false,
+        "filename": "latlontools.4.0.4.zip",
+        "homepage": "https://github.com/hamiltoncj/qgis-latlontools-plugin/#readme",
+        "icon": "https://plugins.qgis.org//media/packages/2026/icon_3XJ160R.png",
+        "id": "latlontools",
+        "installed": false,
+        "library": "",
+        "name": "Lat Lon Tools",
+        "plugin_dependencies": "",
+        "plugin_id": "1035",
+        "rating_votes": "0",
+        "readonly": false,
+        "status": "not installed",
+        "status_exp": "none available",
+        "tags": "bounding box,epsg:4326,dms,move to,utm,wkt,wgs84,canvas,amateur radio grid,maidenhead grid,latitude,longitude,conversion,bing,google,capture,plus codes,processing,4326,point,geohash,openstreetmap,mapillary,osm,crs,google earth,geojson,mgrs,zoom,coordinate,digitizing,digitize,functions,function,ups,expression,ecef,earth-centered,earth-fixed,usng,h3,ewkt,json",
+        "tracker": "https://github.com/hamiltoncj/qgis-latlontools-plugin/issues",
+        "trusted": true,
+        "update_date": "2026-06-29T16:07:09.356263+00:00",
+        "update_date_experimental": "",
+        "update_date_stable": "2026-06-29T16:07:09.356263+00:00",
+        "version_available": "4.0.4",
+        "version_available_experimental": "",
+        "version_available_stable": "4.0.4",
+        "version_installed": "",
+        "zip_repository": "QGIS Official Plugin Repository"
+      }
+    }
+  },
+  "purifier": "qgis",
+  "sdk": "e625af7de05b27c6e026aeed0d4fbade75ff39d7589558905bc4aaf4d79c56f9",
+  "selection": {
+    "plugins": [
+      "latlontools"
+    ]
+  },
+  "version": 1
+}
