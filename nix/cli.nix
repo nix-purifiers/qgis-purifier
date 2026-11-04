@@ -31,7 +31,7 @@ let
         purifierSrc = builtins.storePath "${purifierSrc}";
       };
       lockFile = builtins.toPath lockPath;
-      src = builtins.path {
+      src = if target == "environment" then builtins.toPath projectPath else builtins.path {
         path = builtins.toPath projectPath;
         name = "qgis-project";
         filter = path: type: !(builtins.elem (baseNameOf path) [ ".git" ".qgis-purifier" "__pycache__" "result" ]);
