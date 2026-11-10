@@ -1,0 +1,8 @@
+{
+  "name": "qgis",
+  "builder": "Qgis",
+  "roots": {
+    "points.geojson": "points.geojson"
+  },
+  "changedFile": "coordinates.csv"
+}
